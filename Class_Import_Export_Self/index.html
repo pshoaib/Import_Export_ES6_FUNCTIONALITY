@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #Navbar{
+            border: 1px solid black;
+            height: 60px;
+            width: 90%;
+            margin: auto;
+            display: flex;
+            justify-content:end;
+        }
+        #nav-div{
+            display: flex;
+            gap: 30px;
+          
+        }
+    </style>
+</head>
+<body>
+    <div id="Navbar">
+
+<!--         
+         <div id="nav-div">
+                 <h2> <a href="/jwelary.html">jwelary</a></h2>
+                <h2><a href="/jwelary.html">Electronics</a></h2>
+                <h2><a href="/index.html">Log In</a></h2>
+                <h2><a href="/index.html">Home</a></h2>
+        </div> -->
+
+    </div>
+    
+</body>
+</html>
+<script type="module">
+
+ import navbar from "/scripts/index.js"
+ 
+ 
+ let Navbar = document.getElementById("Navbar")
+     Navbar.innerHTML=navbar
+
+</script>
